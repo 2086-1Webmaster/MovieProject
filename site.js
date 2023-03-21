@@ -21,6 +21,7 @@
 */
 
 
+
 const vue_app = Vue.createApp({
       // This automatically imports your movies.json file and puts it into
       //   the variable: movies
@@ -31,7 +32,9 @@ const vue_app = Vue.createApp({
       },
       data() {
         return {
-            // This holds your movies.json data.
+            title: "IMDB + Manish's Top 8 Movies",
+            owner: "Manish",
+            github: "https://github.com/2086-1Webmaster/MovieProject",
             movies: [],
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
          
@@ -43,3 +46,5 @@ const vue_app = Vue.createApp({
 })
 
 vue_app.mount("#vue_app")
+
+
