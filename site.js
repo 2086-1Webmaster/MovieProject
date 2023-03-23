@@ -78,6 +78,19 @@ const vue_app = Vue.createApp({
                   if(dataArray[1] == 12){
                         return "December " + dataArray[2] + ", " + dataArray[0]
                   }
+            },
+            
+            posterClick(index){
+                  this.movies[index].posterindex++
+                  if(this.movies[index].posterindex >= this.movies[index].posters.length){
+                        this.movies[index].posterindex = 0
+                  }
+            },
+           
+            timeText(minutes){
+                  let hr = Math.trunc(minutes/60)
+                  let min = minutes % 60
+                  return hr + "h" + " " + min + "min"   
             }
       }
 })
