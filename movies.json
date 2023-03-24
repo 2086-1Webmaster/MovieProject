@@ -68,5 +68,48 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Detective Pikachu",
+            "iscore": 6.5,
+            "rating": "PG",
+            "runtime": 104,
+            "released": [2019, 5, 10],
+            "country": "USA",
+            "posters": ["img/detectivepikachu.jpg", "img/detectivepikachu_2.jpg", "img/detectivepikachu_3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt5884052/",
+            "website": "detectivepikachu.pokemon.com",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
+      },
+      {
+            "title": "Promare",
+            "iscore": 7.0,
+            "rating": "PG-13",
+            "runtime": 111,
+            "released": [2019, 9, 20],
+            "country": "Japan",
+            "posters": ["img/promare.jpg"],
+            "imdb": "https://www.imdb.com/title/tt9116358/?ref_=nv_sr_srsg_0",
+            "website": "https://promare-movie.com/",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
+      },
+      {
+            "title": "Harry Potter and the Deathly Hallows: Part 2",
+            "iscore": 8.1,
+            "rating": "PG-13",
+            "runtime": 111,
+            "released": [2011, 7, 15],
+            "country": "USA",
+            "posters": ["img/harrypotter.jpg", "img/harrypotter2.jpg"],
+            "imdb": "https://m.imdb.com/title/tt1201607/?ref_=nv_sr_srsg_0",
+            "website": "https://www.warnerbros.com/movies/harry-potter-and-deathly-hallows-part-2",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
       }
+      
 ]
