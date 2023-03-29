@@ -5,7 +5,7 @@ body {
     padding: 0;
     width: 100%;
     overflow: auto;
-    background-image: url(img/geometry.jpg);
+    background-image: url(img/cool-background.png);
 }
 
 /* This stylizes the header area */
@@ -31,6 +31,8 @@ body {
     margin: 20px;
     border-radius: 0;
     background-color:#dddddd;
+    filter: drop-shadow(-1px 5px 13px #000);
+
 }
 .thumbnail img {
     margin-top: 10px;
